@@ -1,0 +1,50 @@
+.filter {
+    width: 100%;
+    
+    padding: 15px 10px;
+    box-sizing: border-box;
+    /* margin-bottom: 80px; */
+    border-bottom: 1px solid black;
+    
+}
+
+.filter ul {
+    display: flex;
+    margin: auto;
+    max-width: 960px;
+    align-items: center;
+}
+
+.filter li {
+    /* margin: 5px; */
+    padding-left: 25px;
+}
+
+.title {
+    margin-right: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+}
+
+/* .active {
+    font-weight: bold;
+    border-bottom: 1px solid skyblue;
+    margin-bottom: 80px;
+    color: skyblue;
+} */
+
+.navbar a {
+
+    /* color: #333; */
+    text-decoration: none;
+}
+
+.auth-form {
+    max-width: 360px;
+    padding: 10px 90px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+    background: #f4f4f4;
+}

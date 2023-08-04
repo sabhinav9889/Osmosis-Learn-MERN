@@ -1,0 +1,28 @@
+.container {
+    background: rgb(129,186,212);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container li {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.container li:nth-child(3) {
+    text-align: center;
+}
+
+
+img {
+    height: 55px;
+}
